@@ -9,6 +9,7 @@ import pandas as pd
 #create a webdriver object and set options for headless browsing
 options = Options()
 options.headless = True
+# go to https://chromedriver.chromium.org/downloads for downloading the newest version. 
 driver = webdriver.Chrome('C:/Users/ZiZi/OneDrive - University of Illinois - Urbana/CS410 Text Information Sytem/MP2.1-WebScraper/scraper_code/chromedriver',options=options)
 
 #uses webdriver object to execute javascript code and get dynamically loaded webcontent
